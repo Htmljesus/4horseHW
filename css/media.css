@@ -1,0 +1,334 @@
+@media(min-width:1920px){
+    .header{
+        width: 100%;
+    }
+    .container__header {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .header__double{
+        background-image: url(/img/header/big_img.png);
+        background-size: cover;
+    }
+    .left__header__cont {
+        
+        padding: 26px 72px 0px 349px;
+        
+    }
+    .container__footer {
+        width: 1366px;
+    }
+}
+@media (max-width:1366px){
+    .header {
+        min-width: 1366px;
+    }
+    
+    
+}
+@media (max-width:375px){
+    .header{
+        min-width: 375px;
+    }
+    .container__header {
+        width: 375px;
+        margin: 0 auto;
+        
+    }
+    .container {
+        width: 375px;
+        margin: 0 auto;
+        padding: 0px 20px;
+        
+    }
+    .container__footer {
+        width: 375px;
+    }
+    .header__double{
+        background-image: url(/img/header/mini_city.png);
+        background-size: 100% 50%;
+        background-position: 100% 103%;
+        background-repeat: no-repeat;
+    }
+    .run__stroke{
+        width: 375px;
+    }
+    .texture__img{
+        
+    }
+    .left__header__cont {
+        gap: 40px;
+        padding: 18px 20px 0px 20px;
+        
+    }
+    
+    .main__text{
+        font-size: 36px;
+        line-height: 39.6px;
+    }
+    .info__small__text{
+        display: inline-block;
+        width: 335px;
+        text-align: start;
+        margin-bottom: 32px;
+    }
+    .info__small__text br{
+        display: block;
+    }
+    
+    .main__center__grid {
+        display: flex;
+        
+        gap: 40px;
+        
+        margin-top: 148px;
+        overflow: hidden;
+        
+    }
+    .first__block { 
+        width: 335px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        padding-top: 42px;
+
+        
+    }
+    .first__block.vidno{
+        display: none;
+        
+    }
+    .second__block.vidno{
+        display: none;
+    }
+    .second__block.ne__vidno{
+        display: flex;
+        height: 150px;
+        padding: 0px;
+    }
+
+    .third__block { 
+        width: 335px;
+        height: 300px;
+        padding: 62px 20px 20px 20px;
+    }
+    .fourth__block { 
+        display: flex;
+        width: 335px;
+        height: 300px;
+        flex-direction: column;
+        padding: 42px 0px 0px 0px;
+    }
+    .fourth__block.vidno{
+        display: none;
+        
+    }
+    .fifth__block.vidno{
+        display: none;
+    }
+    .fifth__block.ne__vidno{
+        display: flex;
+        
+    }
+    .sixth__block { 
+        padding: 62px 20px 20px 20px;
+        width: 335px;
+        height: 300px;
+    }
+    .sixth__block p{ 
+        width: 243px;
+        height: 110px;
+        
+    }
+    .seventh__block { 
+        padding: 62px 20px 20px 20px;
+        width: 335px;
+        height: 300px;
+    }
+    .seventh__block .block__text {
+        width: 243px
+    }
+    .block__text {
+        width: 243px
+    }
+    
+    
+    
+
+    .slider__for__grid{
+        display: flex;
+        padding-top: 28px;
+    }
+    .img__samolet{
+        display: none;
+    }
+    .img__samolet__for__media{
+        display: block;
+        position: absolute;
+        top: 180px;
+        z-index: 54;
+    }
+    .block__text{
+        font-size: 18px;
+        line-height: 21.6px;
+    }
+    #cont_btns{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 14px;
+        margin-bottom: 291px;
+    }
+    #left__header__btn{
+        width: 335px;
+        height: 47px;
+    }
+    #left__header__btn br{
+        display: none;
+    }
+    #right__header__btn{
+        background-color: #ffffff;
+        opacity: 90%;
+        width: 335px;
+        height: 47px;
+    }
+    #right__header__btn br{
+        display: none;
+    }
+    .main__top {
+        padding-top: 48px;
+        flex-direction: column;
+        justify-items: end;
+        align-items: center;
+    }
+    .main__top__img.ne__vidno{
+        display: block;
+        padding: 24px 0px;
+    }
+    .main__top__img.vidno{
+        display: none;
+    }
+    .main__top__text{
+        font-size: 28px;
+        line-height: 37.8px;
+    }
+    .main__tabl {
+        margin-top: 24.44px;
+        flex-direction: column;
+        
+    }
+    .main__tabl__img{
+        height: 402px;
+    }
+    .main__tabl__text{
+        font-size: 28px;
+        line-height: 37.8px;
+        width: 335px;
+    }
+    .table__stroke{
+        display: flex;
+        flex-direction: column;
+        border-bottom: 2px solid #D0D0D0;
+    }
+    .table__stroke.non__border{
+        border: none;
+    }
+    .table__stroke.non__flex{
+        
+    }
+    
+    
+    
+    /*Бордер убирается нахрен*/
+    .table__first__element{
+        border: none;
+        
+    }
+    .table__second__element{
+        border: none;
+        padding: 0px 0px 16px 0px;
+    }
+    .blue__link{
+        font-size: 18px;
+        line-height: 21.6px;
+        padding-top: 40px;
+    }
+    .title__main__center{
+        margin-top: 120px;
+        font-size: 36px;
+        line-height: 39.6px;
+        position: relative;
+    }
+    /*Работает в медиа*/
+    .main__slider{
+        margin-top: 120px;
+    }
+    .main__slider__title{
+        flex-direction: column;
+    }
+    .photo {
+        width: 244px;
+        height: 244px;
+    }
+    .slider{
+        margin-top: 40px;
+        grid-template-columns: repeat(6,335px);
+        gap: 32px;
+        
+    }
+    .slider__btn__cont.vidno{
+        display: none;
+    }
+    .mini__slider__btn__cont.ne__vidno{
+        display: flex;
+        padding-top: 40px;
+
+    }
+    .slider__title{
+        font-size: 36px;
+        line-height: 39.6px;
+    }
+    .footer {
+        margin-top: 100px;
+    }
+    .end__of__footer {
+        
+        height: 252px;
+        background-color: var(--main-color);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer__text {
+        padding: 40px 20px 60px 20px;
+        font-family: var(--main-font);
+        color: var(--text-color);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19.2px;
+        opacity: 60%;
+    }
+    .texture__img{
+        background-size: cover;
+        
+    }
+    .texture{
+        
+        background-size: cover;
+        
+    }
+    
+    .horse__chess{
+        
+        position: absolute;
+        width: 76.71px;
+        height: 121.63px;
+        top: 665px;
+        left: 160px;
+        
+
+    }
+    .ladya{
+        display: none;
+    }
+}

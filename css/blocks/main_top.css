@@ -1,0 +1,29 @@
+.main {
+    background-color: #fff;
+}
+
+.main__top {
+    padding-top: 80px;
+    display: flex;
+    gap: 64px;
+    justify-items: end;
+    align-items: center;
+}
+.main__top__text {
+    display: block;
+    font-size: 36px;
+    line-height: 48.6px;
+    font-weight: 400;
+    font-family: var(--title-font);
+    color: var(--text-color);
+    width: 100%;
+}
+.main__top__text span{
+    font-weight: 700;
+    color: var(--highlight-color);
+    
+}
+.main__top__img.ne__vidno{
+    display: none;
+}
+

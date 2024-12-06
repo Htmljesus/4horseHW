@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+html, body {
+    font-family: var(--main-font);
+    color: var(--text-color);
+}
+a{
+    color: var(--links-color);
+}
+a:hover{
+    color: var(--main-color);
+}
+.container__header {
+    width: 1366px;
+    margin: 0 auto;
+    
+}
+.container {
+    width: 1366px;
+    margin: 0 auto;
+    padding: 0px 72px;
+}
+.container__footer {
+    width: 1366px;
+    margin: 0 auto;
+}
